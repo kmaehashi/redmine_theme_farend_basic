@@ -149,35 +149,23 @@ html>body .tabular p {overflow:visible;}
 
 
 /* Kenichi Maehashi */
-#attributes .splitcontentright {
-	display: none;
-}
-
-#attachments_form {
-	display: none;
-}
-
-.issue .assigned-to {
-	display: none;
-}
-
-.issue .assigned-to, .start-date, .due-date, .progress, .category {
-	display: none;
-}
-
-#main-menu .new-issue {
-	background-color: rgb(22,62,111);
-}
-
+/* トップメニュー: プロジェクト、ヘルプ */
 #top-menu .projects, .help {
 	display: none;
 }
 
+/* メニュー: 活動 */
 #main-menu .activity {
 	display: none;
 }
 
-#content .members {
+/* メニュー: 新しいチケット */
+#main-menu .new-issue {
+	background-color: rgb(22,62,111);
+}
+
+/* チケット: 添付フォーム */
+#content #attachments_fields, .add_attachment {
 	display: none;
 }
 
