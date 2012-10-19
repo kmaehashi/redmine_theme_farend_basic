@@ -168,3 +168,8 @@ html>body .tabular p {overflow:visible;}
 #content #attachments_form, #attachments_fields, .add_attachment {
     display: none;
 }
+
+/* チケット: 更新リンク */
+#content .icon-edit:after {
+    content: " (返信)";
+}
