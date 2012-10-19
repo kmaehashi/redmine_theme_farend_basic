@@ -165,7 +165,6 @@ html>body .tabular p {overflow:visible;}
 }
 
 /* チケット: 添付フォーム */
-#content #attachments_fields, .add_attachment {
-	display: none;
+#content #attachments_form, #attachments_fields, .add_attachment {
+    display: none;
 }
-
